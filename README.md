@@ -110,27 +110,21 @@ Open that URL in your browser to view the website.
 
 ## 📸 Screenshots
 
-Screenshots of the major website sections will be added here.
+### 🏠 Homepage
 
-### Home Page
+![Tekjawa Solar Solutions Homepage](./screenshots/homepage.png)
 
-*Add screenshot here.*
+### ☀️ Solar Services
 
-### Services
+![Tekjawa Solar Services](./screenshots/services.png)
 
-*Add screenshot here.*
+### 🧮 Solar Subsidy Calculator
 
-### Projects
+![Tekjawa Solar Subsidy Calculator](./screenshots/subsidy-calculator.png)
 
-*Add screenshot here.*
+### 📞 Contact & Footer
 
-### Subsidy Calculator
-
-*Add screenshot here.*
-
-### Contact Section
-
-*Add screenshot here.*
+![Tekjawa Contact and Footer](./screenshots/contact-footer.png)
 
 ## 🌍 Live Demo
 

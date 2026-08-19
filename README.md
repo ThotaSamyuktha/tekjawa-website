@@ -128,7 +128,9 @@ Open that URL in your browser to view the website.
 
 ## 🌍 Live Demo
 
-The live website URL will be added here after deployment.
+Visit the official Tekjawa Solar Solutions website:
+
+**https://tekjawa.com**
 
 ## 🔮 Future Improvements
 

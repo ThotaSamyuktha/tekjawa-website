@@ -1,9 +1,8 @@
 node_modules/
 dist/
-build/
+dist.zip
 .env
 .env.local
 .env.*.local
 *.log
-.DS_Store
 .vscode/

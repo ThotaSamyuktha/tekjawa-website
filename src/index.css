@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --brand-blue: #234fa0;
+  --brand-orange: #f7941d;
+  --brand-green: #2e8b2f;
+}
+
+body {
+  font-family: 'Inter', 'Open Sans', Arial, sans-serif;
+  color: var(--brand-blue);
+}
+
+.solar-gradient {
+  background: linear-gradient(135deg, #ff6b35 0%, #ffd23f 50%, #00b894 100%);
+}
+
+.solar-gradient-blue {
+  background: linear-gradient(135deg, #0066cc 0%, #00b894 100%);
+}
+
+.solar-text-gradient {
+  background: linear-gradient(135deg, #ff6b35 0%, #ffd23f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.solar-shadow {
+  box-shadow: 0 20px 40px rgba(255, 107, 53, 0.1);
+}
+
+.floating-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from { box-shadow: 0 0 20px rgba(255, 107, 53, 0.3); }
+  to { box-shadow: 0 0 40px rgba(255, 107, 53, 0.6); }
+}
